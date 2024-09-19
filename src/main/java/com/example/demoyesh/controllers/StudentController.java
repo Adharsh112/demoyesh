@@ -45,14 +45,14 @@ public class StudentController {
 //    return ResponseEntity.ok()
     }
 
-//
-//    @DeleteMapping
-//    //@Pathvariable is used to map the variable given in the url path with the method parameter
-//    public ResponseEntity<String> deleteStudentById(@PathVariable Integer Id){
-//
-//        return ResponseEntity.ok(iStudentService.deleteStudentById(Id));
-//        //
-//    }
+
+    @DeleteMapping
+    //@Pathvariable is used to map the variable given in the url path with the method parameter
+    public ResponseEntity<String> deleteStudentById(@PathVariable Integer Id){
+
+        return ResponseEntity.ok(iStudentService.deleteStudentById(Id));
+        //
+    }
 
 
 }
