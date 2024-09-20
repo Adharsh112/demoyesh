@@ -6,6 +6,7 @@ public class Teacher {
     private String branch;
     private String gender;
     private Integer experience;
+    //added a comment
 
     public Teacher(String teacherName, String branch, String gender,Integer experience) {
         this.teacherName = teacherName;
