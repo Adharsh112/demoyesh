@@ -6,6 +6,7 @@ public class Teacher {
     private String branch;
     private String gender;
     private Integer experience;
+    //added a comment
 // added comment 2
 
     public Teacher(String teacherName, String branch, String gender,Integer experience) {
