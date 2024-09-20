@@ -5,11 +5,15 @@ public class Teacher {
     private String teacherName ;
     private String branch;
     private String gender;
+    private Integer age ;
 
-    public Teacher(String teacherName, String branch, String gender) {
+
+    public Teacher(String teacherName, String branch, String gender,Integer age) {
         this.teacherName = teacherName;
         this.branch = branch;
         this.gender = gender;
+        this.age = age;
+
     }
 
     public static Integer getTeacherId() {
@@ -42,5 +46,13 @@ public class Teacher {
 
     public void setGender(String gender) {
         this.gender = gender;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
     }
 }
